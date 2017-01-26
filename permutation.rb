@@ -10,7 +10,7 @@ def permutation?(a, b)
   end
 end
 
-RSpec.describe "is_permutation" do
+RSpec.describe "permutation?" do
   it "return true if B is a blank" do
     expect(permutation?("abc", "")).to be true
   end

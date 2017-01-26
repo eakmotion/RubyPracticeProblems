@@ -1,13 +1,13 @@
 #  Implement an algorithm to determine if a string has all unique characters.
 
-require'spec_helper'
+require 'spec_helper'
 
 def unique?(s)
   return true if s.size <= 1
   return s.split('').uniq.size == s.split('').size
 end
 
-RSpec.describe "is_unique?" do
+RSpec.describe "unique?" do
   it "returns true for an empty or one-element string" do
     expect(unique?("")).to be true
     expect(unique?("a")).to be true
