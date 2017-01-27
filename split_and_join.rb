@@ -9,6 +9,7 @@ def split(arr)
 end
 
 def join(arr1, arr2)
+  # Array.shift removes the first element from the array and returns it
   arr2.map { |(n)| arr1.shift(n) }
 end
 
