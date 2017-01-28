@@ -2,7 +2,6 @@
 # Task2: Write a function join. Join two array to one array
 
 require 'spec_helper'
-require 'byebug'
 
 def split(arr)
   [arr.flatten, arr.map { |a| [a.length] }]

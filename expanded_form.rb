@@ -1,7 +1,6 @@
 # Expanded Form
 
 require 'spec_helper'
-require 'byebug'
 
 def expanded_form(num)
   num_list = num.to_s.split('').reverse

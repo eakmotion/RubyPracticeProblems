@@ -1,7 +1,6 @@
 # Write a function to balance the books
 
 require 'spec_helper'
-require 'byebug'
 
 def split_the_bill(group)
   # (x..y).reduce(:+) combines all elements of enum by applying a binary operation
